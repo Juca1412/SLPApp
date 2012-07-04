@@ -1,0 +1,32 @@
+    <!doctype html>  
+    <html>  
+    <head>  
+    <title>onclick event example</title>  
+    <script type="text/javascript">  
+    function initElement()  
+     {  
+     var p = document.getElementById("foo");  
+     // NOTE: showAlert(); or showAlert(param); will NOT work here.  
+     // Must be a reference to a function name, not a function call.  
+     p.onclick = showAlert;  
+     };  
+      
+var request = navigator.mozApps.install("http://socialslp.site11.com/app.webapp");  
+request.onsuccess = function() {  
+  // great - display a message, or redirect to a launch page  
+}  
+request.onerror = function() {  
+  // whoops - this.error.name has details  
+}
+    </script>  
+    <style type="text/css">  
+    #foo {  
+    border: solid blue 2px;  
+    }  
+    </style>  
+    </head>  
+    <body onload="initElement()";>  
+    <span id="foo">My Event Element</span>  
+    <p>click on the above element.</p>  
+    </body>  
+    </html>

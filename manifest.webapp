@@ -1,0 +1,12 @@
+{
+"name": "SLP",
+"description": "SLP blog web app",
+"launch_path": "/",
+"icons": {
+"128": "/img/logo_128.png"
+},
+"developer": {
+"name": "Juca",
+"url": "http://socialslp.site11.com"
+}
+}
