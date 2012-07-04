@@ -1,12 +1,12 @@
 {
-"name": "SLP",
-"description": "SLP blog web app",
+"name": "Test App",
+"description": "My first app",
 "launch_path": "/",
 "icons": {
-"128": "/img/logo_128.png"
+"128": "/images/logo_128.png"
 },
 "developer": {
 "name": "Juca",
-"url": "http://socialslp.site11.com"
+"url": "http://juca1412.github.com/Apptest/"
 }
 }
