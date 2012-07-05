@@ -3,7 +3,7 @@
 "description": "App da SLP para Firefox OS",
 "launch_path": "http://seligapenguin.blogspot.com.br/?m=1",
 "icons": {
-"128": "/images/logo_128.png"
+"128": "http://juca1412.github.com/SLPApp/images/logo_128.png"
 },
 "developer": {
 "name": "Juca",
