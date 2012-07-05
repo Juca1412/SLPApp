@@ -1,12 +1,12 @@
 {
-"name": "Test App",
-"description": "My first app",
-"launch_path": "/",
+"name": "Se Liga Penguin",
+"description": "App da SLP para Firefox OS",
+"launch_path": "http://seligapenguin.blogspot.com.br/?m=1",
 "icons": {
 "128": "/images/logo_128.png"
 },
 "developer": {
 "name": "Juca",
-"url": "http://juca1412.github.com/Apptest/"
+"url": "http://seligapenguin.blogspot.com/?m=1"
 }
 }
